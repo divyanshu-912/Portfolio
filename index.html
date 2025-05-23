@@ -3,42 +3,68 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Divyanshu | Danger Portfolio</title>
+  <title>Divyanshu | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1><span class="danger">D</span>ivyanshu <span class="danger">P</span>ortfolio</h1>
-      <p class="subtitle">Web Developer • Coder • Creator</p>
-    </header>
-    <section class="about">
-      <img src="https://avatars.githubusercontent.com/u/989256851?v=4" alt="profile" class="profile-img" />
-      <div>
-        <h2>About Me</h2>
+  <nav>
+    <div class="logo">Divyanshu</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://github.com/divyanshu-912" target="_blank">GitHub</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section id="about" class="about-section">
+      <div class="about-left">
+        <img src="https://avatars.githubusercontent.com/u/989256851?v=4" alt="Divyanshu" class="profile-img" />
+      </div>
+      <div class="about-right">
+        <h1>Hello, I'm <span class="highlight">Divyanshu</span></h1>
+        <h2>Web Developer & Coder</h2>
         <p>
-          Passionate developer with a knack for building amazing web experiences.<br>
-          I love to code, create, and inspire!
+          I am a passionate developer who loves building clean, creative, and user-friendly websites.<br>
+          I enjoy learning new technologies, collaborating on open source, and bringing ideas to life!
         </p>
       </div>
     </section>
-    <section class="projects">
-      <h2>🚀 Projects</h2>
-      <ul>
-        <li>
-          <strong>Awesome Web App</strong> – Next-gen web application with cool features.
-        </li>
-        <li>
-          <strong>Portfolio</strong> – This very site! Modern, animated, and blazing fast.
-        </li>
-      </ul>
+    <section id="projects" class="projects-section">
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Awesome Web App</h3>
+          <p>A next-gen web application with modern UI and amazing features.</p>
+          <a href="https://github.com/divyanshu-912/awesome-project" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project-card">
+          <h3>Simple Portfolio Website</h3>
+          <p>The site you're viewing now! Responsive, modern, and easy to use.</p>
+          <a href="https://github.com/divyanshu-912/Portfolio" target="_blank">View on GitHub</a>
+        </div>
+        <!-- Add more project cards as needed -->
+      </div>
     </section>
-    <footer>
-      <a href="https://github.com/divyanshu-912" target="_blank">🐙 GitHub</a>
-      <span> | </span>
-      <a href="mailto:your.email@example.com">Contact Me</a>
-    </footer>
-  </div>
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" name="name" placeholder="Your Name" required />
+        <input type="email" id="email" name="email" placeholder="Your Email" required />
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="form-status"></p>
+      <div class="contact-details">
+        <span>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></span>
+        <span> | </span>
+        <span>GitHub: <a href="https://github.com/divyanshu-912" target="_blank">divyanshu-912</a></span>
+      </div>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Divyanshu. All rights reserved.
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
