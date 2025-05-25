@@ -129,6 +129,42 @@ main {
   text-decoration: underline;
 }
 
+.projects-type-section {
+  padding: 44px 0 38px 0;
+  border-bottom: 1px solid #d3d3d3;
+}
+.projects-type-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px #eebbc344;
+  padding: 28px 24px;
+  width: 290px;
+  max-width: 96vw;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.project-card h3 {
+  margin-top: 0;
+  color: #232946;
+  font-size: 1.2rem;
+}
+.project-card a {
+  color: #ff595e;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1em;
+}
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+
 .contact-section {
   padding: 46px 0 10px 0;
   text-align: center;
