@@ -35,14 +35,14 @@ nav ul {
 }
 
 nav ul li a {
-  color: #eebbc3;
+  color:  #ff595e;
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
   transition: color 0.2s;
 }
 nav ul li a:hover {
-  color: #ff595e;
+  color: #eebbc3 ;
 }
 
 main {
@@ -235,7 +235,7 @@ footer {
   margin-top: 45px;
   padding: 16px 0 12px 0;
   background: #232946;
-  color: #eebbc3;
+  color:  #ff595e;
   font-size: 1em;
   letter-spacing: 1px;
   border-radius: 0 0 12px 12px;
