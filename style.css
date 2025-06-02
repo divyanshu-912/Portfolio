@@ -35,14 +35,14 @@ nav ul {
 }
 
 nav ul li a {
-  color:  #ff595e;
+  color:  #1471dc;
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
   transition: color 0.2s;
 }
 nav ul li a:hover {
-  color: #eebbc3 ;
+  color: #5591df ;
 }
 
 main {
@@ -68,7 +68,7 @@ main {
   width: 170px;
   height: 170px;
   border-radius: 50%;
-  border: 6px solid #eebbc3;
+  border: 6px solid #5591df;
   box-shadow: 0 4px 24px #eebbc366;
   object-fit: cover;
 }
@@ -86,7 +86,7 @@ main {
   color: #555;
 }
 .about-right .highlight {
-  color: #ff595e;
+  color: #1471dc;
 }
 
 .projects-section {
@@ -120,7 +120,7 @@ main {
   font-size: 1.2rem;
 }
 .project-card a {
-  color: #ff595e;
+  color: #1471dc;
   text-decoration: none;
   font-weight: 500;
   font-size: 1em;
@@ -155,10 +155,11 @@ main {
   font-size: 1.2rem;
 }
 .project-card a {
-  color: #ff595e;
+  color: #1471dc;
   text-decoration: none;
   font-weight: 500;
   font-size: 1em;
+  cursor: pointer;
 }
 .project-card a:hover {
   text-decoration: underline;
@@ -171,13 +172,41 @@ main {
 }
 
 .active{
-  position: absolute;
+  position: fixed;
   display: block;
-  left: 500px;
+  left: 225px;
+  top: 150px;
  justify-content: center  ;
  align-items: center  ;
- 
-  background-color: #27ae60;
+ height: 70vh;
+ width: 135vh;
+  background: #1471dc3e;
+border-radius: 10px;
+box-shadow: 0 2px 16px #eebbc344;
+
+}
+.active ul li {
+ border-radius: 10px;
+  list-style: none;
+  height: 40px;
+  width: 97%;
+  background:#1471dca0;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-top: 15px;
+  text-decoration: none;
+}
+.active ul li a{
+  text-decoration: none;
+}
+.active button{
+  position: absolute;
+  height: 30px;
+  background-color: #1471dc;
+  bottom: 15px;
+  left: 15px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .contact-section {
@@ -204,7 +233,7 @@ main {
   transition: border 0.2s;
 }
 .contact-section input:focus, .contact-section textarea:focus {
-  border: 1.5px solid #ff595e;
+  border: 1.5px solid #1471dc;
   outline: none;
 }
 .contact-section textarea {
@@ -224,7 +253,7 @@ main {
   transition: background 0.2s;
 }
 .contact-section button:hover {
-  background: #ff595e;
+  background: #1471dc;
 }
 .contact-details {
   margin-top: 10px;
@@ -232,7 +261,7 @@ main {
   font-size: 1em;
 }
 .contact-details a {
-  color: #ff595e;
+  color: #1471dc;
   text-decoration: none;
 }
 .contact-details a:hover {
@@ -250,7 +279,7 @@ footer {
   margin-top: 45px;
   padding: 16px 0 12px 0;
   background: #232946;
-  color:  #ff595e;
+  color:  #1471dc;
   font-size: 1em;
   letter-spacing: 1px;
   border-radius: 0 0 12px 12px;
