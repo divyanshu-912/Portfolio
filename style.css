@@ -28,7 +28,7 @@ nav {
 
 nav ul {
   display: flex;
-  margin: 0;
+  margin-right: 80px;
   padding: 0;
   list-style: none;
   gap: 32px;
@@ -164,6 +164,21 @@ main {
   text-decoration: underline;
 }
 
+
+.project-type{
+  display: none;
+ 
+}
+
+.active{
+  position: absolute;
+  display: block;
+  left: 500px;
+ justify-content: center  ;
+ align-items: center  ;
+ 
+  background-color: #27ae60;
+}
 
 .contact-section {
   padding: 46px 0 10px 0;
