@@ -21,3 +21,40 @@ document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
     }
   });
 });
+
+function projecttype(ptype){
+  const collab=document.getElementById("collab");
+ const indi=document.getElementById("individual");
+ const ongoing=document.getElementById("ongoing");
+
+  if(ptype==="collab"){
+     indi.classList.remove('active');
+    ongoing.classList.remove('active');
+    collab.classList.add('active');
+  
+  }
+  else if(ptype==="individual"){
+     ongoing.classList.remove('active');
+    collab.classList.remove('active');
+    indi.classList.add('active');
+   
+    
+  }
+   else{
+      indi.classList.remove('active');
+    collab.classList.remove('active');
+    ongoing.classList.add('active');
+    
+  }
+}
+
+function closeall(){
+  const collab=document.getElementById("collab");
+ const indi=document.getElementById("individual");
+ const ongoing=document.getElementById("ongoing");
+
+  ongoing.classList.remove('active');
+    collab.classList.remove('active');
+    indi.classList.remove('active');
+   
+}

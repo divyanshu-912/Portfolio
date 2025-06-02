@@ -8,18 +8,18 @@
 </head>
 <body>
   <nav>
-    <div class="logo">Divyanshu-912</div>
+    <div class="logo">divyanshu912.me</div>
     <ul>
       <li><a href="#about">About</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li><a href="https://github.com/divyanshu-912" target="_blank">GitHub</a></li>
+      
     </ul>
   </nav>
   <main>
     <section id="about" class="about-section">
       <div class="about-left">
-        <img src="https://avatars.githubusercontent.com/u/989256851?v=4" alt="Divyanshu" class="profile-img" />
+        <img src="MINE.jpg" alt="Divyanshu" class="profile-img" />
       </div>
       <div class="about-right">
         <h1>Hello, I'm <span class="highlight">Divyanshu Kannaujiya</span></h1>
@@ -37,7 +37,7 @@
         <div class="project-card">
           <h3>Campus Storm</h3>
           <p>A next-gen web application with modern UI and amazing features.</p>
-          <a href="https://github.com/divyanshu-912/awesome-project" target="_blank">View on GitHub</a>
+          <a href="https://github.com/divyanshu-912/awesome-project" target="_blank">View GitHub-Repo</a>
         </div>
         <div class="project-card">
           <h3>Portfolio Website</h3>
@@ -45,7 +45,7 @@
           <a href="https://github.com/divyanshu-912/Portfolio" target="_blank">View GitHub-repo</a><br>
            <a href="https://divyanshu912.me" >View website</a>
         </div>
-        <!-- Add more project cards as needed -->
+      
 
          
       </div>
@@ -59,7 +59,7 @@
               
               <h3>Collaboration Projects</h3>
               <p>I am worked in collaboration with my friends to learn how to work in Group</p>
-              <a href="https://github.com/divyanshu-912/awesome-project" target="_blank">View on GitHub</a>
+              <a  onclick="projecttype('collab')" >View</a>
              
 
          </div>
@@ -67,32 +67,50 @@
               
               <h3>Individual Project</h3>
               <p>I will really appreciate your opinion on my project- Kindly Check it and Give your opinion</p>
-              <a href="https://github.com/divyanshu-912/awesome-project" target="_blank">View on GitHub</a>
+              <a  onclick="projecttype('individual')" >View</a>
 
          </div>
 
           <div class="project-card">
               <h3>Working Project</h3>
               <p>Stay tuned for updates on my latest projects that aim to solve real-world problems.</p>
-             <a href="https://github.com/divyanshu-912/awesome-project" target="_blank">View on GitHub</a>
+             <a onclick="projecttype('ongoing')"    >View</a>
 
           </div>
 
-      </div>
-      
-  
+      </div>  
     </div>
     </section>
+<div id="collab" class="project-type">
+   <ul>
+ <li><a href="#">Campus Storm</a></li>
+   </ul>
+   <button onclick="closeall()">back</button>
+</div>
+<div id="individual" class="project-type">
+  <ul>
+    <li><a href="https://www.divyanshu912.me">My Portfolio</a></li>
+  </ul>
+  <button onclick="closeall()">back</button>
+</div>
+<div id="ongoing" class="project-type">
+    <ul>
+      <li><a href="#">Campus Storm</a></li>
+      <li><a href="#">TasteRail</a></li>
+      <p>Repo is Private on Github</p>
+    </ul>
+    <button onclick="closeall()">Close</button>
+</div>
 
     <section id="contact" class="contact-section">
-      <p>Kindly leave your comment in the Contact form, So that I can Improve</p>
+      <p>Kindly leave your comment in the Contact Form, So that I can Improve</p>
       <h2>Contact Me</h2>
       <form id="contactForm">
         <input type="text" id="name" name="name" placeholder="Your Name" required />
         <input type="email" id="email" name="email" placeholder="Your Email" required />
        <label for="cars">Choose the Project:</label>
         <select id="project-comment" name="comment">
-          <option value="p1">project 1</option>
+          <option value="p1">Project 1</option>
           <option value="p2">Project 2</option>
           <option value="p3">Project 3</option>
           <option value="4">Project 4</option>
@@ -109,7 +127,7 @@
     </section>
   </main>
   <footer>
-    &copy; 2025 Divyanshu Kannaujiya. All rights reserved.
+    &copy; 2025 Divyanshu Kannaujiya.
   </footer>
   <script src="script.js"></script>
 </body>
