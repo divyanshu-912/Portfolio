@@ -42,7 +42,7 @@ nav ul li a {
   transition: color 0.2s;
 }
 nav ul li a:hover {
-  color: #5591df ;
+  color: #5985c0 ;
 }
 
 main {
@@ -198,6 +198,8 @@ box-shadow: 0 2px 16px #eebbc344;
 }
 .active ul li a{
   text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 .active button{
   position: absolute;
@@ -289,6 +291,32 @@ footer {
   main { padding: 24px 5vw 0 5vw; }
   .about-section { flex-direction: column; gap: 20px; }
   .projects-grid { flex-direction: column; gap: 0; }
+  
+.active{
+  position: fixed;
+  display: block;
+  left: 20px;
+  top: 150px;
+ justify-content: center  ;
+ align-items: center  ;
+ height: 70vh;
+ width: 50vh;
+  background: #1471dc3e;
+border-radius: 10px;
+box-shadow: 0 2px 16px #eebbc344;
+
+}
+.active ul li {
+ border-radius: 10px;
+  list-style: none;
+  height: 30px;
+  width: 97%;
+  background:#1471dcbd;
+  margin-top: 8px;
+  padding-left: 15px;
+  padding-top: 15px;
+  text-decoration: none;
+}
 }
 @media (max-width: 600px) {
   nav { flex-direction: column; padding: 0 10px; height: auto; }
