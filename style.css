@@ -292,7 +292,11 @@ footer {
   main { padding: 24px 5vw 0 5vw; }
   .about-section { flex-direction: column; gap: 20px; }
   .projects-grid { flex-direction: column; gap: 0; }
-  
+.logo{
+  display: none;
+}
+
+
 .active{
   position: fixed;
   display: block;
