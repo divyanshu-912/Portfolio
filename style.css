@@ -300,7 +300,7 @@ footer {
  justify-content: center  ;
  align-items: center  ;
  height: 70vh;
- width: 50vh;
+ width: 41vh;
   background: #1471dc3e;
 border-radius: 10px;
 box-shadow: 0 2px 16px #eebbc344;
@@ -310,13 +310,21 @@ box-shadow: 0 2px 16px #eebbc344;
  border-radius: 10px;
   list-style: none;
   height: 30px;
-  width: 97%;
+  width: 85%;
   background:#1471dcbd;
   margin-top: 8px;
   padding-left: 15px;
-  padding-top: 15px;
+  padding-top: 10px;
   text-decoration: none;
 }
+nav ul {
+  display: flex;
+  margin-right: 7px;
+  padding: 0;
+  list-style: none;
+  gap: 32px;
+}
+
 }
 @media (max-width: 600px) {
   nav { flex-direction: column; padding: 0 10px; height: auto; }
