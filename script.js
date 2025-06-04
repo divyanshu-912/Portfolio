@@ -58,3 +58,52 @@ function closeall(){
     indi.classList.remove('active');
    
 }
+
+const ctx=document.getElementById('skillChart')
+const skillChart=new Chart(ctx,{
+  type:'radar',
+  data:{
+    labels:['HTML','CSS','JavaScript','Node.js','Express','MongoDB','React'],
+    datasets:[{
+      label:'Proficiency Level',
+      data:[95,90,85,80,75,70,60],
+      backgroundColor:'rgba(0,123,255,0.2)',
+      borderColor:'rgba(0,123,255,1)',
+      borderWidth:2,
+      pointBackgroundColor:'rgba(0,123,255,1)'
+
+    }]
+  },
+  options:{
+    plugins:{
+      legend:{
+        position:'top',
+        labels:{
+          color:'#333',
+          font:{
+            size:14,
+            family:'Arial, sans-serif'
+          }
+        }
+      },
+      title:{
+        display:true,
+        text:'Skill Proficiency Chart',
+        color:'#333',
+        font:{
+          size:18
+        }
+      }
+    },
+
+    scales:{
+      r:{
+        angleLines:{display:true},
+        suggestedMin:0,
+        suggestedMax:100,
+
+      }
+    },
+    responsive:true,
+  }
+});

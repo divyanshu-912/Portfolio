@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Divyanshu Kannaujiya</title>
   <link rel="stylesheet" href="style.css" />
+  
 </head>
 <body>
   <nav>
@@ -25,12 +26,19 @@
       <div class="about-right">
         <h1>Hello, I'm <span class="highlight">Divyanshu Kannaujiya</span></h1>
         <h2>Bachelor of Technology, MNNIT Allahabad</h2>
-        <p style="font-size:12px;" >Web Developer-JS,NodeJs,ExpressJs |C++ </p>
+
+        <p style="font-size:12px;" >Web Development-NodeJs, Express, Bootstrap, PostegreSQL| C++ | Python </p>
+
         <p>
           I am a passionate developer who loves building clean, creative, and user-friendly websites.<br>
           I enjoy learning new technologies, collaborating on open source, and bringing ideas to life!
         </p>
       </div>
+      <section id="skills" style="padding: 50px 20px; background: #f9f9f9; text-align: center;">
+        <h2 style="font-size: 2.5rem; margin-top: 30px;">My Skills</h2>
+        <div  style="max-width: 600px;margin: auto;"></div>
+        <canvas id="skillChart"></canvas>
+      </section>
     </section>
     <section id="projects" class="projects-section">
       <h2>My top Projects</h2>
@@ -75,7 +83,7 @@
           <div class="project-card">
               <h3>Working Project</h3>
               <p>Stay tuned for updates on my latest projects that aim to solve real-world problems.</p>
-             <a onclick="projecttype('ongoing')"    >View</a>
+             <a onclick="projecttype('ongoing')">View</a>
 
           </div>
 
@@ -85,12 +93,14 @@
 <div id="collab" class="project-type">
    <ul>
  <li><a href="#">Campus Storm</a></li>
+ <li><a href="#">Soon.....</a></li>
    </ul>
    <button onclick="closeall()">back</button>
 </div>
 <div id="individual" class="project-type">
   <ul>
     <li><a href="https://www.divyanshu912.me">My Portfolio</a></li>
+    <li><a href="#">Soon....</a></li>
   </ul>
   <button onclick="closeall()">back</button>
 </div>
@@ -98,6 +108,7 @@
     <ul>
       <li><a href="#">Campus Storm</a></li>
       <li><a href="#">TasteRail</a></li>
+      <li><a href="#">Soon...</a></li>
       <p>Repo is Private on Github</p>
     </ul>
     <button onclick="closeall()">Close</button>
@@ -130,6 +141,7 @@
   <footer>
     &copy; 2025 Divyanshu Kannaujiya.
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
