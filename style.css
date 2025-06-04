@@ -332,6 +332,7 @@ nav ul {
 
 }
 @media (max-width: 600px) {
+
   nav { flex-direction: column; padding: 0 0px; height: auto; }
   .logo { margin-bottom: 6px; }
   main { padding: 15px 2vw 0 2vw; }
@@ -341,3 +342,4 @@ nav ul {
 #skillChart{
   height: 400px !important;
 }
+
