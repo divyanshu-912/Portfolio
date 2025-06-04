@@ -66,7 +66,7 @@ const skillChart=new Chart(ctx,{
     labels:['HTML','CSS','JavaScript','Node.js','Express','MongoDB','React'],
     datasets:[{
       label:'Proficiency Level',
-      data:[95,90,85,80,75,70,60],
+      data:[95,90,85,80,75,70,10],
       backgroundColor:'rgba(0,123,255,0.2)',
       borderColor:'rgba(0,123,255,1)',
       borderWidth:2,
